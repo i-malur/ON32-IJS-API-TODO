@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export class task{
+export class Task{
     id: string;
     titulo: string;
     descricao: string;
