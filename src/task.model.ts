@@ -12,7 +12,6 @@ export class task{
         this.titulo = titulo;
         this.descricao = descricao;
         this.status = 'ABERTA'
-
     }
 
     /* this está se referenciando ao objeto que está sendo criado, ou seja,
