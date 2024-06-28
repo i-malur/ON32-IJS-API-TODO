@@ -41,3 +41,6 @@
 ## Instalação do UUID
 * npm install uuid
 * npm instal --save-dev @types/uuid
+
+## Criação de pastas
+* nest generate services nomeserviço
