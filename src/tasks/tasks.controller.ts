@@ -1,4 +1,4 @@
-import { Body, Controller, HttpStatus, Get, Post, HttpException, Param } from '@nestjs/common';
+import { Body, Controller, HttpStatus, Get, Post, HttpException, Param, Delete } from '@nestjs/common';
 import { TasksService } from './tasks.service';
 
 
@@ -40,4 +40,13 @@ export class TasksController {
             data: task
         }
     }
+
+    @Delete(':id')
+        deleteById(@Param('id') id:string){
+            this.taskService.deleteTaskById(id);
+            return{
+                statusCode: HttpStatus.OK,
+                message: 'Todas as Tasks retornadas com sucesso',
+            }
+        }
 }
