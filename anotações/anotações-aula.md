@@ -1,3 +1,4 @@
+# ANOTAÇÕES DE AULA
 * Package.json: Arquivo inicial de um projeto node.js. Contendo informações de nome do autor, nome do projeto, versão, descrição, etc.
 
 * Nodemon: dependencia usada para rodar o arquivo a cada modificação realizada.
