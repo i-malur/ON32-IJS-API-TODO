@@ -3,6 +3,8 @@
 
 * Nodemon: dependencia usada para rodar o arquivo a cada modificação realizada.
 
+* idempotência: https://xuenqui.medium.com/idempot%C3%AAncia-uma-boa-pr%C3%A1tica-a-se-utilizar-em-servi%C3%A7os-rest-633c38f4d7c0
+
 ```typescript
 {
     "watch": ["src"],

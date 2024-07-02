@@ -4,7 +4,7 @@ export class Task{
     id: string;
     titulo: string;
     descricao: string;
-    status: 'ABERTA' | 'FEITA' | 'EM ANDAMENTO';
+    status: 'ABERTA' | 'FEITA';
 
     // no constructor, não é necessário inicializar com todos os parâmetros da classe
     constructor(titulo: string, descricao:string){
